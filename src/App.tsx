@@ -517,7 +517,7 @@ function App() {
             </div>
             <div className="flex justify-center gap-6">
               <a
-                href="https://sakshisahu.me"
+                href="https://github.com/sahu-sakshi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
