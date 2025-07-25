@@ -1,69 +1,118 @@
-# React + TypeScript + Vite
+# Sakshi Sahu - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing my skills, projects, and achievements as a Full Stack Developer and Computer Science student at NIT Raipur.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Visit the live portfolio: [sakshisahu.me](https://sakshisahu.me)
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Responsive Design** - Optimized for all devices and screen sizes
+- **Dark/Light Mode** - Toggle between themes with persistent preference storage
+- **Modern UI** - Built with shadcn/ui components and Tailwind CSS
+- **Smooth Animations** - Engaging user experience with hover effects and transitions
+- **SEO Optimized** - Proper meta tags and semantic HTML structure
+- **Fast Performance** - Built with Vite for optimal loading speeds
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- **Frontend**: React 19, TypeScript
+- **Styling**: Tailwind CSS, shadcn/ui
+- **Build Tool**: Vite
+- **Icons**: Lucide React
+- **Package Manager**: Yarn
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📱 Sections
+
+- **Hero** - Introduction and call-to-action
+- **About** - Personal overview with key statistics
+- **Projects** - Featured projects with technologies used
+- **Skills** - Technical skills organized by category
+- **Education** - Academic background and achievements
+- **Achievements** - Awards, certifications, and accomplishments
+- **Contact** - Links to profiles and contact information
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- Yarn package manager
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/sahu-sakshi/portfolio.git
+cd portfolio
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Install dependencies:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+yarn install
 ```
+
+3. Start the development server:
+
+```bash
+yarn dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+### Building for Production
+
+```bash
+yarn build
+```
+
+The built files will be in the `dist` directory.
+
+## 🎨 Customization
+
+### Theme Colors
+
+The color scheme can be customized in `src/index.css` by modifying the CSS custom properties for both light and dark modes.
+
+### Adding New Components
+
+This project uses shadcn/ui components. Add new components with:
+
+```bash
+npx shadcn@latest add [component-name]
+```
+
+### Content Updates
+
+Update personal information, projects, and skills directly in `src/App.tsx` by modifying the respective data arrays.
+
+## 📈 Key Highlights
+
+- **500+ LeetCode Problems** solved
+- **8.08 CGPA** at NIT Raipur
+- **State Topper** in AISSCE 2019 (97.1%)
+- **Multiple Full-Stack Projects** with modern technologies
+- **Leadership Experience** as squad leader
+
+## 🌟 Projects Featured
+
+1. **CodeGeekCentral** - Ultimate Blogging Platform (Next.js, MERN, JWT)
+2. **CraftHaven** - Online Shopping Destination (React, Firebase, Sass)
+3. **Memory Card** - Interactive Game (React, PokeAPI, Vite)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Connect
+
+- **Portfolio**: [sakshisahu.me](https://sakshisahu.me)
+- **LeetCode**: [leetcode.com/sahu-sakshi](https://leetcode.com/sahu-sakshi)
+- **GitHub**: [github.com/sahu-sakshi](https://github.com/sahu-sakshi)
+
+---
+
+Built with ❤️ by Sakshi Sahu
