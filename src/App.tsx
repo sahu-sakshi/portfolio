@@ -62,7 +62,7 @@ function App() {
         "Tailwind",
         "TypeScript",
       ],
-      github: "#",
+      github: "https://github.com/sahu-sakshi/blog-api",
     },
     {
       title: "CraftHaven - An Online Shopping Destination",
@@ -75,7 +75,7 @@ function App() {
         "Firebase",
         "TypeScript",
       ],
-      github: "#",
+      github: "https://github.com/sahu-sakshi/shopping-cart",
     },
     {
       title: "Memory Card",
@@ -88,7 +88,7 @@ function App() {
         "Firebase",
         "TypeScript",
       ],
-      github: "#",
+      github: "https://github.com/sahu-sakshi/memory-card",
     },
   ];
 
@@ -534,6 +534,15 @@ function App() {
                 <Code className="h-4 w-4" />
                 LeetCode Profile
               </a>
+              <a
+                href="https://github.com/sahu-sakshi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+              >
+              <Github className="h-4 w-4" />
+              GitHub Profile
+             </a>
             </div>
           </div>
         </div>
